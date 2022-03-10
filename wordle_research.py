@@ -3,7 +3,12 @@ import keyboard
 import pygame
 import string
 
+"""This program solves the wordle game, simply follow the instructions
 
+TODO: 
+1. Implement smartRec2() to use letterFreq() in order to get a better reccomendation
+2. Add NYTimes official word list as an option, this current solution is more robust for the whole english dictionary but not as useful for the official game.
+"""
 class word:
 
 
